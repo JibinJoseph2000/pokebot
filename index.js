@@ -18,4 +18,6 @@ bot.on("message", (msg) => {
 {bot.sendMessage(chatId, 'double fine');}
     if(msg.text=="how are you")
 {bot.sendMessage(chatId, 'triple fine');}
+    else
+{bot.sendMessage(chatId, 'invalid');}
 });
