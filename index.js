@@ -6,7 +6,7 @@ const port = process.env.PORT || 443,
     token = process.env.TOKEN || '740932949:AAHL1GnnNUtYWRkb-xuw08qeAr1S4rBhhfU',
     bot = new TelegramBot(token, {
         webHook: {
-            port: port
+            port: port,
             host: host
         }
     });
