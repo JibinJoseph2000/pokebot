@@ -14,10 +14,14 @@ bot.on("message", (msg) => {
     const chatId = msg.chat.id;
     if(msg.text=="hai"||msg.text=="Hai")
     {bot.sendMessage(chatId, 'Hello');}
-     else if(msg.text=="how r u")
+     else if(msg.text=="How r u")
      {bot.sendMessage(chatId, 'double fine');}
-   else if(msg.text=="how are you")
+   else if(msg.text=="How are you")
 {bot.sendMessage(chatId, 'triple fine');}
+    else if(msg.text=="How do u feel")
+{bot.sendMessage(chatId, 'much fine');}
+       else if(msg.text=="How do you feel")
+{bot.sendMessage(chatId, 'much more than fine');}
     else
     {bot.sendMessage(chatId,'not executable');}
 });
