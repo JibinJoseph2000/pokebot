@@ -22,6 +22,8 @@ bot.on("message", (msg) => {
 {bot.sendMessage(chatId, 'much fine');}
        else if(msg.text=="How do you feel")
 {bot.sendMessage(chatId, 'much more than fine');}
+     else if(msg.text=="Bye")
+{bot.sendMessage(chatId, 'Ok Well done');}
     else
     {bot.sendMessage(chatId,'not executable');}
 });
